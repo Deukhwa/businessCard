@@ -1,7 +1,21 @@
+@value makerGreen from '../../common/colors.css';
+
 .preview {
   flex-basis: 50%;
-  background-color: pink;
 }
 
 .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: makerGreen;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  padding: 0.5em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
